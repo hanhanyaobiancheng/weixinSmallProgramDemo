@@ -1,0 +1,15 @@
+/* pages/teacher/teacher.wxss */
+.header{
+    margin:60px auto 40px auto;
+    font: 30px 隶书 bold;
+}
+.submit{
+    margin: 35px 0;
+}
+.input{
+    margin:20px 0;
+    border:1px sloid rgba(0,0,0,0.3);
+}
+.accident{
+    align-self: flex-end;
+}

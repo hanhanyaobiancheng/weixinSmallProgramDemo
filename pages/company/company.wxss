@@ -1,0 +1,25 @@
+/* pages/company/company.wxss */
+.header{
+    font: 30px 雅黑 bold;
+    align-self: center;
+}
+.section{
+    font-size: 15px;
+    border:1px solid rgba(0,0,0,0.3);
+    overflow: auto;
+    line-height: 25px;
+    margin-top:20px;
+}
+.option{
+    font-size: 15px;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+.submit{
+    margin-top: 20px;
+}
+.else{
+    font-size: 15px;
+    margin-top: 30px;
+    align-self: center;
+}

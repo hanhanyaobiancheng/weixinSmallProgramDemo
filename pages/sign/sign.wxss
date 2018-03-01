@@ -1,0 +1,29 @@
+/* pages/sign/sign.wxss */
+.head{
+    text-align: left;
+    border-radius: 0;
+}
+.input1{
+    margin: 40px 0 0 5px;
+}
+.input2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.input{
+    margin:20px 0;
+    align-content: flex-end;
+}
+.input3{
+    margin: 30px 0 0 -5px;
+    align-content: flex-start
+}
+.submit{
+    font-size: 15px;
+    align-items: baseline;
+}
+.foot{
+    margin-top: 80px;
+}
+

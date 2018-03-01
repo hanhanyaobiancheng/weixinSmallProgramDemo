@@ -1,0 +1,9 @@
+<!--pages/jiuyebao/jiuyebao.wxml-->
+<view class="container">
+    <view class="paragraph">{{text[0]}}</view>
+    <view class="container">
+        <view class="header">{{text[1]}}</view>
+        <image src="{{src}}" class="piture" mode='aspectFit'></image>
+    </view>
+    <view class="span">{{text[2]}}</view>
+</view>

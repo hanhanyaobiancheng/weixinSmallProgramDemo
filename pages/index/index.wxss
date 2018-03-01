@@ -1,0 +1,16 @@
+/**index.wxss**/
+.head{
+  font: 20px 隶书 bold;
+  text-shadow: 5px 5px 5px;
+  margin-top: 100px;
+  align-self: center;
+}
+.nav{
+  color:blue;
+  margin-top: 60px;
+  align-self: center;
+}
+.navbar{
+  margin-top: 20px;
+  font:20px 楷体 bold；
+}

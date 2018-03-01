@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/student/student",
+    "pages/teacher/teacher",
+    "pages/company/company",
+    "pages/jiuyebao/jiuyebao",
+    "pages/sign/sign",
+    "pages/ceshi/ceshi"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "rgba(10,10,200,0.6)",
+    "navigationBarTitleText": "北京科技大学就业指导中心",
+    "navigationBarTextStyle":"black"
+  }
+}

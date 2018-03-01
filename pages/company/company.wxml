@@ -1,0 +1,24 @@
+<!--pages/company/company.wxml-->
+<view class="container">
+    <view class='header'>{{head}}</view>
+    <view class="section">
+        <view>{{text[0]}}</view>
+        <view>{{text[1]}}</view>
+        <view>{{text[2]}}</view>
+        <view>{{text[3]}}</view>
+        <view>{{text[4]}}</view>
+        <view>{{text[5]}}</view>
+        <view>{{text[6]}}</view>
+        <view>{{text[7]}}</view>
+        <view>{{text[8]}}</view>
+    </view>
+    <checkbox-group bindchange="checkboxChange">
+  <label class="option" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+    <view class="submit">
+        <button type="primary" disabled="{{!checked}}">{{start}}</button>
+    </view>
+    <view class="else" bindtap="jiuyebao">{{else}}</view>
+</view>

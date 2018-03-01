@@ -1,0 +1,18 @@
+<!--pages/sign/sign.wxml-->
+<button class="head" type="primary" bindtap="back">{{text[0]}}</button>
+<view class="container">
+    <view class="input1">
+        <input  placeholder="{{text[3]}}" class="put"/>
+    </view>
+    <view class="input2">
+        <view  class="input input3">
+            <input placeholder="{{text[4]}}" class="put"/>
+        </view>
+        <view class="input input4">
+            <button type="primary" class="submit">{{text[1]}}</button>
+        </view>
+    </view>
+    <view class="foot">
+        <button type="primary">{{text[2]}}</button>
+    </view>
+</view>

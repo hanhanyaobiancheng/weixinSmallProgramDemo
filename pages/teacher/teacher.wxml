@@ -1,0 +1,12 @@
+<!--pages/teacher/teacher.wxml-->
+<view class="container">
+    <view class="header">{{text[0]}}</view>
+    <view>
+        <input class="input" placeholder="{{text[3]}}"/>
+        <input class="input" placeholder="{{text[4]}}" />
+    </view>
+    <view class="submit">
+        <button type="primary">{{text[1]}}</button>
+    </view>
+    <view class="accident" bindtap="sign">{{text[2]}}</view>
+</view>

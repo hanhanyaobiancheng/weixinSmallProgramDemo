@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="head" bindtap="ceshi">{{text[3]}}</view>  
+    <view class="nav">
+        <view class="navbar" bindtap="student">{{text[ 0]}}</view>
+        <view class="navbar" bindtap="teacher">{{text[1]}}</view>
+        <view class="navbar" bindtap="company">{{text[2]}}</view>
+    </view>
+</view>
